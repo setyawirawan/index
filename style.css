@@ -7,5 +7,22 @@ body {
 h1 {
     color: #9e2020; /* Warna tajuk (header)*/
     font-size: 24px; /* Ukuran font tajuk (header) */
-    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
 }
+
+h1:hover { animation: color-change 3s infinite; }
+
+
